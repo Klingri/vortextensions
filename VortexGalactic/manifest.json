@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Vortex Navbar Pro",
+  "version": "1.0",
+  "description": "Enhances the Vortex navbar with better UI and features.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://playvortex.io/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
