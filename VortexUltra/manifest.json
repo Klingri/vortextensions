@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Vortex Profile Enhancer",
+  "version": "1.0",
+  "description": "Enhances Vortex profiles with modern UI and extra features.",
+  "content_scripts": [
+    {
+      "matches": ["https://playvortex.io/users/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
